@@ -1,0 +1,19 @@
+.sample5 li a[href]{
+	text-decoration:none;
+}
+/*
+.sample5 li{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+*/
+.sample5{
+	padding:0;
+	display:table;
+	height:100px;
+}
+.sample5 li{
+	display:table-cell;
+	vertical-align:middle;
+}

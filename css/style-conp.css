@@ -1,0 +1,44 @@
+.sample1 a{
+	font-size:5em;
+	color:#000;
+}
+.sample1 > a {
+  font-size:3em;
+  font-weight:bold;
+  color:#e62323;
+}
+.sample1 > a + span a{
+	font-size:5.5em;
+	color:#221bd9;
+}
+.sample1 > a + span ~ a{
+	font-size:2em;
+	color:#dee93c;
+}
+p.sample2{
+	width:500px;
+}
+p.sample2:first-letter{
+  font-weight:bold;
+  font-size:2em;
+}
+p.sample2:first-line{
+  font-weight:bold;
+  color:red;
+}
+.sample3 p:first-child{
+	  font-weight:bold;
+	  color:#f00;
+}
+.sample3 p:last-child{
+	  font-size:2em;
+	  color:#472be4;
+}
+ul.sample4 li:nth-child(1){
+	  font-weight:bold;
+		color:#f00;
+}
+.sample5 li a[href]{
+	text-decoration:none;
+}
+
